@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">lbm1</string>
+    <string name="type_prompt">Choose a type</string>
+
+    <string-array name="lb_typ1">
+        <item>Carpenter</item>
+        <item>Plumber</item>
+        <item>Sweeper</item>
+        <item>Electrician</item>
+        <item>Mechanic</item>
+        <item>Driver</item>
+        <item>Dish Washer</item>
+        <item>Chef</item>
+    </string-array>
+
+    <string-array name="time1">
+
+
+    </string-array>
+</resources>

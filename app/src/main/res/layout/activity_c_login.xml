@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c_login">
+
+    <Button
+        android:id="@+id/c_s"
+        android:layout_width="241dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="242dp"
+        android:text="Sign up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c_l" />
+
+    <Button
+        android:id="@+id/c_l"
+        android:layout_width="241dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="85dp"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
